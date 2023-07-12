@@ -1,0 +1,93 @@
+/* COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* COMMON CSS ENDS HERE======================================================================================== */
+
+
+/* SPECIAL OFFER SECTION STARTS HERE */
+#specialOffer {
+    position: relative;
+    background-color: #F1F3F4;
+}
+#specialOffer .textPart {
+    padding: 0;
+    padding-right: 78px;
+}
+#specialOffer .textPart .text1 {
+    color: #444;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+#specialOffer .textPart .text2 {
+    color: #11161E;
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    display: block;
+    margin-bottom: 16px;
+}
+#specialOffer .textPart .text3 {
+    color: #444;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 30px;
+    width: 416px;
+}
+#specialOffer .textPart a {
+    color: #FFF;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 100px;
+    padding: 14px 27px 13px 23px;
+    background-color: #FF6F61;
+}
+#specialOffer .imgPart {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    display: flex;
+    height: 100%;
+}
+#specialOffer .imgPart img {
+    height: 100%;
+    width: 100%;
+}
+/* SPECIAL OFFER SECTION ENDS HERE */
